@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Landing Page</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <img src="https://www.figma.com/api/mcp/asset/17d04dca-b59c-4e69-8487-93189409522b" alt="Luxi Mobile" class="logo__image">
+                    <span class="logo__text">Mobile</span>
+                </div>
+                <nav class="nav" id="mainNav">
+                    <button class="nav__toggle" aria-label="Toggle navigation" id="navToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav__list">
+                        <li><a href="#features" class="nav__link nav__link--active">Feature</a></li>
+                        <li><a href="#showcase" class="nav__link">Showcase</a></li>
+                        <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+                        <li><a href="#faq" class="nav__link">FAQ</a></li>
+                        <li><a href="#" class="nav__link" id="contactLink">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__social">
+                    <a href="#" class="social-icon" aria-label="Facebook">
+                        <img src="https://www.figma.com/api/mcp/asset/77bbe8fe-79d9-4c49-aff2-e75a6b93094d" alt="Facebook">
+                    </a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn">
+                        <img src="https://www.figma.com/api/mcp/asset/19647bcf-1b01-4c1d-b85b-17ce4039038b" alt="LinkedIn">
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        <img src="https://www.figma.com/api/mcp/asset/634c265c-a4c1-4ec3-87f9-c215645cc6e1" alt="Twitter">
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <img src="https://www.figma.com/api/mcp/asset/bb7ed3f6-2e57-47d9-815c-409aad1b71d4" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__background">
+            <div class="hero__shape hero__shape--top"></div>
+            <div class="hero__shape hero__shape--bottom"></div>
+        </div>
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__title">
+                        Sed Imperdiet Enim li Vitae <span class="text-primary">Viverra Justo</span>
+                    </h1>
+                    <p class="hero__subtitle">
+                        Nam sollicitud nunc, cursus eros vulputate sed. Vestibulum sit amet tortor sit amet libero lobortis.
+                    </p>
+                    <div class="hero__cta">
+                        <a href="#" class="btn btn--app-store">
+                            <img src="https://www.figma.com/api/mcp/asset/c58091a3-100e-4f4e-be83-dcf41634657b" alt="App Store">
+                        </a>
+                        <a href="#" class="btn btn--google-play">
+                            <img src="https://www.figma.com/api/mcp/asset/c90af84e-ecb1-4ccb-8a89-5db6f22305c7" alt="Google Play">
+                        </a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="https://www.figma.com/api/mcp/asset/3d568fc8-79ac-491d-b6d5-9cb6f093dcee" alt="Mobile App Preview" class="hero__phone">
+                </div>
+            </div>
+        </div>
+        <div class="hero__decoration">
+            <div class="decoration-circle"></div>
+            <div class="decoration-dots"></div>
+        </div>
+    </section>
+
+    <!-- Counter Section -->
+    <section class="counter">
+        <div class="container">
+            <div class="counter__grid">
+                <div class="counter__item">
+                    <div class="counter__icon">
+                        <img src="https://www.figma.com/api/mcp/asset/931eb2ba-9af8-49fd-b904-bb9142656b03" alt="Download">
+                    </div>
+                    <h3 class="counter__number">+200M</h3>
+                    <p class="counter__label">Download</p>
+                </div>
+                <div class="counter__item">
+                    <div class="counter__icon">
+                        <img src="https://www.figma.com/api/mcp/asset/9a8df1a0-77c1-4039-a327-eba707a005fa" alt="Transaction">
+                    </div>
+                    <h3 class="counter__number">+480M</h3>
+                    <p class="counter__label">Transaction</p>
+                </div>
+                <div class="counter__item">
+                    <div class="counter__icon">
+                        <img src="https://www.figma.com/api/mcp/asset/6421d0ee-7281-4ac2-abb3-5be3731c5371" alt="Ratings">
+                    </div>
+                    <h3 class="counter__number">+180M</h3>
+                    <p class="counter__label">Ratings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-header__title">Feature</h2>
+                <div class="section-header__indicator"></div>
+            </div>
+
+            <div class="feature feature--reverse">
+                <div class="feature__image">
+                    <img src="https://www.figma.com/api/mcp/asset/bd95e76d-3854-4978-93f0-210a983e690f" alt="Feature 1">
+                </div>
+                <div class="feature__content">
+                    <div class="feature__header">
+                        <div class="feature__dot"></div>
+                        <h3 class="feature__title">Vivamus sit amet interdum</h3>
+                    </div>
+                    <p class="feature__description">
+                        Maecenas nisl libero, tincidunt id odio id, feugiat vulputate quam vestibulum feugiat.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature__image">
+                    <img src="https://www.figma.com/api/mcp/asset/68e1804d-bf1c-4d84-9438-0823e73d8181" alt="Feature 2">
+                </div>
+                <div class="feature__content">
+                    <div class="feature__header">
+                        <div class="feature__dot"></div>
+                        <h3 class="feature__title">Vivamus sit amet interdum</h3>
+                    </div>
+                    <p class="feature__description">
+                        Vestibulum sit amet tortor sit amet libero lobortis semper at et odio.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature feature--reverse">
+                <div class="feature__image">
+                    <img src="https://www.figma.com/api/mcp/asset/e476f907-6ea7-4340-9291-d1437a5b965b" alt="Feature 3">
+                </div>
+                <div class="feature__content">
+                    <h3 class="feature__title feature__title--center">Vivamus sit amet interdum</h3>
+                    <div class="feature__dot feature__dot--center"></div>
+                    <p class="feature__description feature__description--center">
+                        Vestibulum sit amet tortor sit amet libero lobortis semper at et odio.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section class="showcase" id="showcase">
+        <div class="showcase__background"></div>
+        <div class="container">
+            <div class="showcase__content">
+                <h2 class="showcase__title">Nam sollicitudin dignissim nunc</h2>
+                <div class="showcase__phones">
+                    <img src="https://www.figma.com/api/mcp/asset/d2642f7e-98df-4572-9f67-7843a3c83126" alt="App Screenshots" class="showcase__image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-header__title">Testimonials</h2>
+                <div class="section-header__indicator"></div>
+            </div>
+            <blockquote class="testimonial">
+                <p class="testimonial__text">
+                    Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam nec ex aliquet.
+                </p>
+                <footer class="testimonial__footer">
+                    <cite class="testimonial__author">
+                        <span class="testimonial__name">Jihan Doe</span>
+                        <span class="testimonial__role"> - Co Founder Luxi Theme</span>
+                    </cite>
+                </footer>
+            </blockquote>
+            <div class="testimonials__faces">
+                <img src="https://www.figma.com/api/mcp/asset/2ad90349-1ff1-47b7-81df-92691c0860a3" alt="Testimonial" class="testimonials__face testimonials__face--active">
+                <img src="https://www.figma.com/api/mcp/asset/a24a86fd-07b2-41b4-bdbb-5a8a1a7b5688" alt="Testimonial" class="testimonials__face">
+                <img src="https://www.figma.com/api/mcp/asset/5fc4998a-d0e0-41a9-bf6b-2900c9dbbdad" alt="Testimonial" class="testimonials__face">
+                <img src="https://www.figma.com/api/mcp/asset/0d7aa314-e238-4a25-bed1-e579de57e40b" alt="Testimonial" class="testimonials__face">
+                <img src="https://www.figma.com/api/mcp/asset/f94b22bb-6013-4af7-90a6-016d2a12e6bb" alt="Testimonial" class="testimonials__face">
+                <img src="https://www.figma.com/api/mcp/asset/49582158-f7e7-420f-b7fe-8502e028a8f6" alt="Testimonial" class="testimonials__face">
+                <img src="https://www.figma.com/api/mcp/asset/fe1e88dc-d51c-463a-ab29-66642da53f37" alt="Testimonial" class="testimonials__face">
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="faq__layout">
+                <div class="faq__left">
+                    <div class="section-header">
+                        <h2 class="section-header__title">FAQ</h2>
+                        <div class="section-header__indicator"></div>
+                    </div>
+                    <p class="faq__intro">
+                        Vestibulum sit amet tortor sit amet libero lobortis semper at et odio.
+                    </p>
+                    <div class="faq__illustration">
+                        <img src="https://www.figma.com/api/mcp/asset/144c91a5-e866-4c27-ba76-9cdca415c1bb" alt="FAQ Illustration">
+                    </div>
+                </div>
+                <div class="faq__right">
+                    <div class="accordion">
+                        <div class="accordion__item accordion__item--active">
+                            <button class="accordion__header">
+                                <span class="accordion__question">Pellentesque ac bibendum tortor?</span>
+                                <span class="accordion__icon">
+                                    <img src="https://www.figma.com/api/mcp/asset/70ad0cc6-c54b-4842-8716-1a793ec4c0b2" alt="Toggle">
+                                </span>
+                            </button>
+                            <div class="accordion__content">
+                                <p class="accordion__answer">
+                                    Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__header">
+                                <span class="accordion__question">Quisque lacinia purus ut libero?</span>
+                                <span class="accordion__icon">
+                                    <img src="https://www.figma.com/api/mcp/asset/81e59282-926d-4b0c-b546-d751280017ca" alt="Toggle">
+                                </span>
+                            </button>
+                            <div class="accordion__content">
+                                <p class="accordion__answer">Answer content here...</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__header">
+                                <span class="accordion__question">In mi nulla, fringilla vestibulum?</span>
+                                <span class="accordion__icon">
+                                    <img src="https://www.figma.com/api/mcp/asset/81e59282-926d-4b0c-b546-d751280017ca" alt="Toggle">
+                                </span>
+                            </button>
+                            <div class="accordion__content">
+                                <p class="accordion__answer">Answer content here...</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__header">
+                                <span class="accordion__question">Quisque ut metus sit amet augue?</span>
+                                <span class="accordion__icon">
+                                    <img src="https://www.figma.com/api/mcp/asset/81e59282-926d-4b0c-b546-d751280017ca" alt="Toggle">
+                                </span>
+                            </button>
+                            <div class="accordion__content">
+                                <p class="accordion__answer">Answer content here...</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <button class="accordion__header">
+                                <span class="accordion__question">Pellentesque ac bibendum tortor?</span>
+                                <span class="accordion__icon">
+                                    <img src="https://www.figma.com/api/mcp/asset/81e59282-926d-4b0c-b546-d751280017ca" alt="Toggle">
+                                </span>
+                            </button>
+                            <div class="accordion__content">
+                                <p class="accordion__answer">Answer content here...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <h2 class="partners__title">Nulla lobortis nunc vitae nisi</h2>
+            <div class="partners__grid">
+                <div class="partner">
+                    <img src="https://www.figma.com/api/mcp/asset/a2abd6e7-e599-4d90-b186-52e4997d0a06" alt="Partner" class="partner__logo">
+                </div>
+                <div class="partner">
+                    <img src="https://www.figma.com/api/mcp/asset/87b4b2c9-76ae-4a54-9e2e-9658a9c41449" alt="Partner" class="partner__logo">
+                </div>
+                <div class="partner">
+                    <img src="https://www.figma.com/api/mcp/asset/c3c7919b-e1e1-4542-ab6c-307927dce997" alt="Partner" class="partner__logo">
+                </div>
+                <div class="partner">
+                    <img src="https://www.figma.com/api/mcp/asset/86d24ab1-4b29-4779-a8e3-450af60a5a20" alt="Partner" class="partner__logo">
+                </div>
+                <div class="partner">
+                    <img src="https://www.figma.com/api/mcp/asset/dec19bee-2aee-4cf1-a36b-ef1f37f7a5a3" alt="Partner" class="partner__logo">
+                </div>
+                <div class="partner">
+                    <img src="https://www.figma.com/api/mcp/asset/6a9cadb1-d699-4aff-b6c3-5f46671195d5" alt="Partner" class="partner__logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="news">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-header__title">Latest News</h2>
+                <div class="section-header__indicator"></div>
+            </div>
+            <div class="news__content">
+                <img src="https://www.figma.com/api/mcp/asset/d2642f7e-98df-4572-9f67-7843a3c83126" alt="Latest News" class="news__image">
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="cta__title">What are you waiting for? Download Now!</h2>
+            <div class="cta__buttons">
+                <a href="#" class="btn btn--app-store">
+                    <img src="https://www.figma.com/api/mcp/asset/c58091a3-100e-4f4e-be83-dcf41634657b" alt="App Store">
+                </a>
+                <a href="#" class="btn btn--google-play">
+                    <img src="https://www.figma.com/api/mcp/asset/c90af84e-ecb1-4ccb-8a89-5db6f22305c7" alt="Google Play">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="https://www.figma.com/api/mcp/asset/17d04dca-b59c-4e69-8487-93189409522b" alt="Luxi Mobile" class="footer__logo-image">
+                    <span class="footer__logo-text">Mobile</span>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h3 class="footer__heading">COMPANY</h3>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Donec dignissim</a></li>
+                            <li><a href="#" class="footer__link">Curabitur egestas</a></li>
+                            <li><a href="#" class="footer__link">Nam posuere</a></li>
+                            <li><a href="#" class="footer__link">Aenean facilisis</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3 class="footer__heading">Services</h3>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Cras convallis</a></li>
+                            <li><a href="#" class="footer__link">Vestibulum faucibus</a></li>
+                            <li><a href="#" class="footer__link">Quisque lacinia purus</a></li>
+                            <li><a href="#" class="footer__link">Aliquam nec ex</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3 class="footer__heading">Legal</h3>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Suspendisse porttitor</a></li>
+                            <li><a href="#" class="footer__link">Nam posuere</a></li>
+                            <li><a href="#" class="footer__link">Curabitur egestas</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__right">
+                    <div class="footer__social">
+                        <a href="#" class="social-icon social-icon--footer" aria-label="Facebook">
+                            <img src="https://www.figma.com/api/mcp/asset/77bbe8fe-79d9-4c49-aff2-e75a6b93094d" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-icon social-icon--footer" aria-label="LinkedIn">
+                            <img src="https://www.figma.com/api/mcp/asset/19647bcf-1b01-4c1d-b85b-17ce4039038b" alt="LinkedIn">
+                        </a>
+                        <a href="#" class="social-icon social-icon--footer" aria-label="Twitter">
+                            <img src="https://www.figma.com/api/mcp/asset/634c265c-a4c1-4ec3-87f9-c215645cc6e1" alt="Twitter">
+                        </a>
+                        <a href="#" class="social-icon social-icon--footer" aria-label="Instagram">
+                            <img src="https://www.figma.com/api/mcp/asset/bb7ed3f6-2e57-47d9-815c-409aad1b71d4" alt="Instagram">
+                        </a>
+                    </div>
+                    <div class="footer__language">
+                        <select class="language-select">
+                            <option>English - En</option>
+                            <option>Español - Es</option>
+                            <option>Français - Fr</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>© Luxi Theme 2019</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Form Modal -->
+    <div class="modal" id="contactModal" aria-hidden="true">
+        <div class="modal__overlay"></div>
+        <div class="modal__content">
+            <button class="modal__close" id="closeModal" aria-label="Close modal">
+                <img src="https://www.figma.com/api/mcp/asset/bceabb47-cf3f-41c9-8614-0ece60e35635" alt="Close">
+            </button>
+            <div class="contact-form">
+                <h2 class="contact-form__title">Say Hello to Us</h2>
+                <p class="contact-form__description">
+                    Aenean sit amet magna vel magna fringilla fermentum. Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.
+                </p>
+                <form class="contact-form__form" id="contactForm">
+                    <div class="contact-form__row">
+                        <div class="contact-form__field">
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                class="contact-form__input" 
+                                placeholder="What is your name? *" 
+                                required
+                            >
+                        </div>
+                        <div class="contact-form__field">
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="contact-form__input contact-form__input--active" 
+                                placeholder="What is your email? *" 
+                                required
+                            >
+                        </div>
+                    </div>
+                    <div class="contact-form__row">
+                        <div class="contact-form__field">
+                            <label class="contact-form__label" for="phone">What is your phone number?</label>
+                            <input 
+                                type="tel" 
+                                id="phone" 
+                                name="phone" 
+                                class="contact-form__input contact-form__input--filled" 
+                                value="+12 345 678 90"
+                            >
+                        </div>
+                        <div class="contact-form__field">
+                            <input 
+                                type="text" 
+                                id="company" 
+                                name="company" 
+                                class="contact-form__input" 
+                                placeholder="What is your company?"
+                            >
+                        </div>
+                    </div>
+                    <div class="contact-form__field contact-form__field--full">
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            class="contact-form__textarea" 
+                            rows="6" 
+                            placeholder="Write your message here"
+                        ></textarea>
+                    </div>
+                    <div class="contact-form__footer">
+                        <div class="contact-form__checkbox-wrapper">
+                            <input 
+                                type="checkbox" 
+                                id="terms" 
+                                name="terms" 
+                                class="contact-form__checkbox" 
+                                checked
+                                required
+                            >
+                            <label for="terms" class="contact-form__checkbox-label">
+                                I have read and accept the <a href="#" class="contact-form__link">Terms of Service & Privacy Policy</a> *
+                            </label>
+                        </div>
+                        <button type="submit" class="contact-form__submit">
+                            Send message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
