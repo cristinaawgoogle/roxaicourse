@@ -1,5 +1,30 @@
 // Mobile Navigation Toggle
 document.addEventListener('DOMContentLoaded', function() {
+  // Theme Toggle
+  const themeToggle = document.getElementById('themeToggle');
+  const html = document.documentElement;
+  
+  // Check for saved theme preference or default to light mode
+  const currentTheme = localStorage.getItem('theme') || 'light';
+  html.setAttribute('data-theme', currentTheme);
+  
+  if (themeToggle) {
+    themeToggle.addEventListener('click', function() {
+      const currentTheme = html.getAttribute('data-theme');
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      
+      // Add a subtle animation
+      themeToggle.style.transform = 'rotate(360deg)';
+      setTimeout(() => {
+        themeToggle.style.transform = '';
+      }, 300);
+    });
+  }
+
+  // Mobile Navigation
   const navToggle = document.getElementById('navToggle');
   const navList = document.getElementById('mainNav')?.querySelector('.nav__list');
 
