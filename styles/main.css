@@ -899,7 +899,7 @@ ul {
 .showcase__title {
   font: var(--font-heading-2);
   font-weight: var(--font-weight-semibold);
-  color: var(--color-text-inverse);
+  color: #ffffff;
   margin-bottom: var(--spacing-12);
 }
 
@@ -1084,7 +1084,7 @@ ul {
 
 .accordion__item--active .accordion__header {
   background: var(--color-bg-gradient-hero);
-  color: var(--color-text-inverse);
+  color: #ffffff;
 }
 
 .accordion__question {
@@ -1243,7 +1243,7 @@ ul {
 .cta__title {
   font: var(--font-heading-3);
   font-weight: var(--font-weight-bold);
-  color: var(--color-text-inverse);
+  color: #ffffff;
   text-align: center;
   margin-bottom: var(--spacing-8);
   position: relative;
@@ -1272,18 +1272,18 @@ ul {
 .footer {
   padding: var(--spacing-section) 0 var(--spacing-8);
   background-color: var(--color-bg-dark);
-  color: var(--color-text-inverse);
+  color: #ffffff;
   position: relative;
 }
 
-/* Ensure footer text is always visible with high contrast */
+/* Ensure footer text is always white for contrast on dark background */
 .footer,
 .footer * {
-  color: var(--color-text-inverse);
+  color: #ffffff;
 }
 
 .footer a {
-  color: var(--color-text-inverse);
+  color: #ffffff;
 }
 
 .footer::before {
@@ -1328,7 +1328,7 @@ ul {
 .footer__logo-text {
   font: var(--font-heading-5);
   font-weight: var(--font-weight-semibold);
-  color: var(--color-text-inverse);
+  color: #ffffff;
 }
 
 .footer__links {
@@ -1352,7 +1352,7 @@ ul {
 .footer__heading {
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold);
-  color: var(--color-text-inverse);
+  color: #ffffff;
   text-transform: uppercase;
   margin-bottom: var(--spacing-2);
 }
@@ -1365,7 +1365,7 @@ ul {
 
 .footer__link {
   font-size: var(--font-size-lg);
-  color: var(--color-text-inverse);
+  color: #ffffff;
   opacity: 0.8;
   transition: opacity 0.2s ease;
 }
@@ -1397,7 +1397,7 @@ ul {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: var(--border-radius-lg);
   background-color: rgba(255, 255, 255, 0.1);
-  color: var(--color-text-inverse);
+  color: #ffffff;
   font-size: var(--font-size-lg);
   cursor: pointer;
   transition: all 0.2s ease;
@@ -1409,7 +1409,7 @@ ul {
 
 .language-select option {
   background-color: var(--color-bg-dark);
-  color: var(--color-text-inverse);
+  color: #ffffff;
 }
 
 .footer__copyright {
@@ -1417,7 +1417,7 @@ ul {
   padding-top: var(--spacing-8);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-size: var(--font-size-lg);
-  color: var(--color-text-inverse);
+  color: #ffffff;
   opacity: 0.8;
   position: relative;
   z-index: 1;
@@ -1761,7 +1761,7 @@ ul {
 .contact-form__submit {
   padding: var(--spacing-5) var(--spacing-8);
   background-color: var(--color-cyan-500);
-  color: var(--color-text-inverse);
+  color: #ffffff;
   border: none;
   border-radius: var(--border-radius-full);
   font-size: var(--font-size-2xl);
