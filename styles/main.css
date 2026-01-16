@@ -1276,6 +1276,16 @@ ul {
   position: relative;
 }
 
+/* Ensure footer text is always visible with high contrast */
+.footer,
+.footer * {
+  color: var(--color-text-inverse);
+}
+
+.footer a {
+  color: var(--color-text-inverse);
+}
+
 .footer::before {
   content: '';
   position: absolute;
